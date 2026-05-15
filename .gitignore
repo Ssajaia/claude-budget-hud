@@ -1,0 +1,123 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pkl
+*.sqlite3
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# =========================
+# Build / Packaging (PyInstaller)
+# =========================
+build/
+dist/
+*.spec
+
+# PyInstaller cache
+*.manifest
+*.dll
+*.so
+
+# =========================
+# Encrypted / Local Config (IMPORTANT)
+# =========================
+*.enc
+*.key
+config.json
+config.enc
+settings.enc
+local_config.json
+
+# Any runtime-generated sensitive data
+*.token
+*.secret
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+log/
+
+# =========================
+# OS-specific junk
+# =========================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# =========================
+# IDEs / Editors
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# PyCharm
+*.iml
+.ipynb_checkpoints/
+
+# =========================
+# Qt / PySide6
+# =========================
+*.qmlc
+*.jsc
+qt.cache/
+
+# Qt Creator
+*.pro.user
+*.pro.user.*
+*.qbs.user
+
+# =========================
+# Testing / Coverage
+# =========================
+htmlcov/
+.coverage
+.coverage.*
+.pytest_cache/
+.tox/
+.nox/
+
+# =========================
+# Environment variables
+# =========================
+.env
+.env.*
+.env.local
+
+# NEVER commit real API keys
+anthropic_key.txt
+api_key.txt
+
+# =========================
+# Misc
+# =========================
+*.bak
+*.tmp
+*.temp
